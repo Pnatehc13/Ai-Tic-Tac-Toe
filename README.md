@@ -17,9 +17,33 @@ A simple yet intelligent Tic Tac Toe game built in Java using Swing for GUI and 
 - Minimax Algorithm (custom implementation)
 - IntelliJ IDEA (for development)
 
-## 📷 Screenshots
+## 🧠 How the AI Works
+The AI uses the classic Minimax algorithm — it simulates all possible future game states and recursively evaluates outcomes, choosing the move that guarantees a win or a draw.
 
-(Add screenshots of your game here if possible!)
+Full tree search — no pruning, no shortcuts
+
+Always optimal — you can't beat it unless you go first and play perfectly
+
+## 🛠 Tech Stack
+Java
+
+Java Swing
+
+Custom Minimax implementation
+
+Launch4j (for Windows executable)
+
+## Structure
+├── Board.java       # Core logic: move validation, win checking, minimax
+├── GameGUI.java     # Main GUI file with buttons, display, game loop
+├── Player.java      # Simple class to track current player
+├── Score.java       # Keeps track of player scores and draws
+└── AITicTacToe.exe  # Optional Windows executable (Launch4j) 
+
+## 📜 License
+MIT — use it, learn from it, remix it.
+
+
 
 ## 🚀 Running the Game
 
